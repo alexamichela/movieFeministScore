@@ -14,7 +14,7 @@ least one conversation not about a man? Other tests such as the Villareal, Ko, a
 the Bechdel test by including the movie crew, gender, and race into the matrix. Although these tests reveal
 anti-feminist aspects of a film, they fail to provide an intersectional evaluation of women in film that
 encompass, race, sexuality, and disability.
-To create a more all-encompassing feminist score – including race, sexuality, and gender, we
+\nTo create a more all-encompassing feminist score – including race, sexuality, and gender, we
 incorporated three tests in our self-defined feminist score. The three tests we used are: Villareal (index 4),
 Ko (index 6), Rees Davies (index 12). The Villareal test examines female protagonists, evaluating
 whether or not they are portrayed as one of three common stereotypes (sexualized, expressionless, or
@@ -34,11 +34,11 @@ out the string representation of a movie that hasn’t had its test results popu
 user to set test results. In the Movie Collection class, when movies are added to the collection from the
 input file, their respective test results are also populated. A movie’s feminist score is determined in the
 following manner:
-● If the movie passes none of the tests, it gets a score of 0.
-● If the movie passes only one of the tests, it gets a score of 1.
-● If the movie passes any two of the tests, it gets a score of 2.
-● If the movie passes all three tests, it gets a score of 3.
-Our program allows users to easily sort a movie collection by feminist scores through an
+\n● If the movie passes none of the tests, it gets a score of 0.
+\n● If the movie passes only one of the tests, it gets a score of 1.
+\n● If the movie passes any two of the tests, it gets a score of 2.
+\n● If the movie passes all three tests, it gets a score of 3.
+\nOur program allows users to easily sort a movie collection by feminist scores through an
 implementation of a PriorityQueue data structure that is based on a LinkedMaxHeap, which implements
 the MaxHeap interface. A MaxHeap is an extension of a BinaryTree, in which each node’s element
 priority is greater than or equal to both of its children’s. Thus, the highest priority element is at the root.
@@ -49,7 +49,7 @@ desire to facilitate understanding of our feminist score and the subsequent rank
 Additionally, the ways in which we would have liked to further evaluate a movie’s diversity and
 representation, such as the inclusion of BIPOC and LGBTQ+ individuals in all departments, were not
 easily available to us through the other tests and data.
-Thus, when users want to sort a movie collection by feminist score, they enqueue each movie to a
+\nThus, when users want to sort a movie collection by feminist score, they enqueue each movie to a
 priority queue, in which elements are prioritized by their feminist score, and dequeue all of the movies to
 show the ranked list of movies from most feminist to least. If more movies were added to our data, our
 solution to sorting a movie collection by feminist score would not have to change. The addition of more
@@ -61,7 +61,7 @@ crew, so that smaller movies get a lower priority.
 ## Conclusions
 ### Findings:
 Ranking movie collection from most feminist to least:
-Movie title: Bad Moms Actors: 16 Feminist Score: 2
+\nMovie title: Bad Moms Actors: 16 Feminist Score: 2
 Movie title: Batman v Superman: Dawn of Justice Actors: 122 Feminist Score: 2
 Movie title: Fantastic Beasts and Where to Find Them Actors: 61 Feminist Score: 2
 Movie title: Finding Dory Actors: 28 Feminist Score: 2
