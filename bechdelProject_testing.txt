@@ -1,0 +1,248 @@
+*---------------------*
+Testing Actor Class
+*---------------------*
+Actor 1
+Name: Chris Evans Gender: Male
+Actor 2
+Name: Emma D'arcy Gender: Non-binary
+Actor 1 New Name: Alexa
+Actor 1 New Gender: Female
+Actor 1 equals Actor 2 (expected false): false
+Actor 3
+Name: Emma D'arcy Gender: Non-binary
+Actor 2 equals Actor 3 (expected true): true
+*---------------------*
+Testing Movie Class
+*---------------------*
+*---------- Small Data File -----------*
+Movie 1 Title: Alpha
+*Movie must set test results before receiving a feminist score*
+Movie title: Alpha Actors: 4
+Movie 1 Actors: {Name: Patrice Lovely Gender: Female=Supporting, Name: Cassi Davis Gender: Female=Supporting, Name: Stella Gender: Male=Leading, Name: Tyler Perry Gender: Male=Leading}
+Movie 1 Test Results: [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1]
+Movie 1 Feminist Score (expected 2): 2
+*---------- Complete Data File -----------*
+Movie title: Boo! A Madea Halloween Actors: 42 Feminist Score: 1
+*Movie must set test results before receiving a feminist score*
+Movie title: Hidden Figures Actors: 96
+Movie title: Hidden Figures Actors: 96 Feminist Score: 2
+Comparing Alpha to Hidden Figures (expected: 1): 1
+Comparing Boo! A Madea Halloween to Hidden Figures (expected: -1): -1
+*---------------------*
+Testing MovieCollection Class on Small Data File
+*---------------------*
+This movie collection contains 3 movies:
+Movie title: Alpha Actors: 4 Feminist Score: 2
+Movie title: Beta Actors: 4 Feminist Score: 2
+Movie title: Gamma Actors: 2 Feminist Score: 2
+
+
+There are 3 movies that pass the Bechdel test:
+Alpha
+Beta
+Gamma
+
+There are 3 movies that pass either Peirce or Landau tests:
+Alpha
+Beta
+Gamma
+
+There are 0 movies that pass the White test but fail the Rees-Davies test:
+
+Ranking movie collection from most feminist to least:
+Movie title: Alpha Actors: 4 Feminist Score: 2
+Movie title: Beta Actors: 4 Feminist Score: 2
+Movie title: Gamma Actors: 2 Feminist Score: 2
+
+*---------------------*
+Testing MovieCollection Class on nextBechdel Files
+*---------------------*
+This movie collection contains 50 movies:
+Movie title: Bad Moms Actors: 16 Feminist Score: 2
+Movie title: Hidden Figures Actors: 96 Feminist Score: 2
+Movie title: Independence Day: Resurgence Actors: 28 Feminist Score: 2
+Movie title: Finding Dory Actors: 28 Feminist Score: 2
+Movie title: Ghostbusters Actors: 54 Feminist Score: 2
+Movie title: The Divergent Series: Allegiant Actors: 91 Feminist Score: 2
+Movie title: Arrival Actors: 60 Feminist Score: 1
+Movie title: Ice Age: Collision Course Actors: 18 Feminist Score: 2
+Movie title: Kung Fu Panda 3 Actors: 36 Feminist Score: 2
+Movie title: Miss Peregrine's Home for Peculiar Children Actors: 53 Feminist Score: 1
+Movie title: Sing Actors: 55 Feminist Score: 2
+Movie title: The Boss Actors: 37 Feminist Score: 0
+Movie title: The Girl on the Train Actors: 20 Feminist Score: 1
+Movie title: Boo! A Madea Halloween Actors: 42 Feminist Score: 1
+Movie title: Alice Through the Looking Glass Actors: 23 Feminist Score: 1
+Movie title: Fantastic Beasts and Where to Find Them Actors: 61 Feminist Score: 2
+Movie title: La La Land Actors: 49 Feminist Score: 1
+Movie title: Now You See Me 2 Actors: 48 Feminist Score: 2
+Movie title: Passengers Actors: 27 Feminist Score: 1
+Movie title: Pete's Dragon Actors: 41 Feminist Score: 2
+Movie title: Sausage Party Actors: 33 Feminist Score: 2
+Movie title: Storks Actors: 25 Feminist Score: 2
+Movie title: Suicide Squad Actors: 54 Feminist Score: 2
+Movie title: The Conjuring 2: The Enfield Poltergeist Actors: 32 Feminist Score: 1
+Movie title: The Purge: Election Year Actors: 41 Feminist Score: 2
+Movie title: X-Men: Apocalypse Actors: 90 Feminist Score: 1
+Movie title: 10 Cloverfield Lane Actors: 10 Feminist Score: 1
+Movie title: Batman v Superman: Dawn of Justice Actors: 122 Feminist Score: 2
+Movie title: Captain America: Civil War Actors: 26 Feminist Score: 1
+Movie title: Central Intelligence Actors: 25 Feminist Score: 1
+Movie title: Don't Breathe Actors: 10 Feminist Score: 0
+Movie title: Hacksaw Ridge Actors: 90 Feminist Score: 2
+Movie title: Lights Out Actors: 14 Feminist Score: 0
+Movie title: Moana Actors: 7 Feminist Score: 1
+Movie title: Ride Along 2 Actors: 50 Feminist Score: 1
+Movie title: Star Trek Beyond Actors: 23 Feminist Score: 2
+Movie title: Sully Actors: 61 Feminist Score: 1
+Movie title: Teenage Mutant Ninja Turtles: Out of the Shadows Actors: 23 Feminist Score: 1
+Movie title: The Angry Birds Movie Actors: 47 Feminist Score: 2
+Movie title: The Magnificent Seven Actors: 48 Feminist Score: 1
+Movie title: Trolls Actors: 32 Feminist Score: 0
+Movie title: Zootopia Actors: 32 Feminist Score: 1
+Movie title: Jason Bourne Actors: 43 Feminist Score: 1
+Movie title: Rogue One: A Star Wars Story Actors: 33 Feminist Score: 0
+Movie title: The Accountant Actors: 58 Feminist Score: 1
+Movie title: The Jungle Book Actors: 11 Feminist Score: 1
+Movie title: The Legend of Tarzan Actors: 58 Feminist Score: 1
+Movie title: Deadpool Actors: 34 Feminist Score: 0
+Movie title: Doctor Strange Actors: 29 Feminist Score: 1
+Movie title: The Secret Life of Pets Actors: 31 Feminist Score: 0
+
+
+There are 32 movies that pass the Bechdel test:
+Bad Moms
+Hidden Figures
+Independence Day: Resurgence
+Finding Dory
+Ghostbusters
+The Divergent Series: Allegiant
+Arrival
+Ice Age: Collision Course
+Kung Fu Panda 3
+Miss Peregrine's Home for Peculiar Children
+Sing
+The Boss
+The Girl on the Train
+Boo! A Madea Halloween
+Alice Through the Looking Glass
+Fantastic Beasts and Where to Find Them
+La La Land
+Pete's Dragon
+Sausage Party
+Suicide Squad
+The Conjuring 2: The Enfield Poltergeist
+The Purge: Election Year
+X-Men: Apocalypse
+10 Cloverfield Lane
+Captain America: Civil War
+Don't Breathe
+Lights Out
+Moana
+Teenage Mutant Ninja Turtles: Out of the Shadows
+Trolls
+Zootopia
+Rogue One: A Star Wars Story
+
+There are 47 movies that pass either Peirce or Landau tests:
+Bad Moms
+Hidden Figures
+Independence Day: Resurgence
+Finding Dory
+Ghostbusters
+The Divergent Series: Allegiant
+Arrival
+Ice Age: Collision Course
+Kung Fu Panda 3
+Miss Peregrine's Home for Peculiar Children
+Sing
+The Boss
+The Girl on the Train
+Boo! A Madea Halloween
+Alice Through the Looking Glass
+Fantastic Beasts and Where to Find Them
+La La Land
+Now You See Me 2
+Passengers
+Sausage Party
+Storks
+Suicide Squad
+The Conjuring 2: The Enfield Poltergeist
+The Purge: Election Year
+X-Men: Apocalypse
+10 Cloverfield Lane
+Batman v Superman: Dawn of Justice
+Captain America: Civil War
+Central Intelligence
+Don't Breathe
+Hacksaw Ridge
+Lights Out
+Moana
+Ride Along 2
+Star Trek Beyond
+Sully
+Teenage Mutant Ninja Turtles: Out of the Shadows
+The Angry Birds Movie
+The Magnificent Seven
+Trolls
+Zootopia
+Jason Bourne
+Rogue One: A Star Wars Story
+The Accountant
+The Jungle Book
+The Legend of Tarzan
+The Secret Life of Pets
+
+There are 0 movies that pass the White test but fail the Rees-Davies test:
+
+Ranking movie collection from most feminist to least:
+Movie title: Bad Moms Actors: 16 Feminist Score: 2
+Movie title: Batman v Superman: Dawn of Justice Actors: 122 Feminist Score: 2
+Movie title: Fantastic Beasts and Where to Find Them Actors: 61 Feminist Score: 2
+Movie title: Finding Dory Actors: 28 Feminist Score: 2
+Movie title: Ghostbusters Actors: 54 Feminist Score: 2
+Movie title: Hacksaw Ridge Actors: 90 Feminist Score: 2
+Movie title: Hidden Figures Actors: 96 Feminist Score: 2
+Movie title: Ice Age: Collision Course Actors: 18 Feminist Score: 2
+Movie title: Independence Day: Resurgence Actors: 28 Feminist Score: 2
+Movie title: Kung Fu Panda 3 Actors: 36 Feminist Score: 2
+Movie title: Now You See Me 2 Actors: 48 Feminist Score: 2
+Movie title: Pete's Dragon Actors: 41 Feminist Score: 2
+Movie title: Sausage Party Actors: 33 Feminist Score: 2
+Movie title: Sing Actors: 55 Feminist Score: 2
+Movie title: Star Trek Beyond Actors: 23 Feminist Score: 2
+Movie title: Storks Actors: 25 Feminist Score: 2
+Movie title: Suicide Squad Actors: 54 Feminist Score: 2
+Movie title: The Angry Birds Movie Actors: 47 Feminist Score: 2
+Movie title: The Divergent Series: Allegiant Actors: 91 Feminist Score: 2
+Movie title: The Purge: Election Year Actors: 41 Feminist Score: 2
+Movie title: 10 Cloverfield Lane Actors: 10 Feminist Score: 1
+Movie title: Alice Through the Looking Glass Actors: 23 Feminist Score: 1
+Movie title: Arrival Actors: 60 Feminist Score: 1
+Movie title: Boo! A Madea Halloween Actors: 42 Feminist Score: 1
+Movie title: Captain America: Civil War Actors: 26 Feminist Score: 1
+Movie title: Central Intelligence Actors: 25 Feminist Score: 1
+Movie title: Doctor Strange Actors: 29 Feminist Score: 1
+Movie title: Jason Bourne Actors: 43 Feminist Score: 1
+Movie title: La La Land Actors: 49 Feminist Score: 1
+Movie title: Miss Peregrine's Home for Peculiar Children Actors: 53 Feminist Score: 1
+Movie title: Moana Actors: 7 Feminist Score: 1
+Movie title: Passengers Actors: 27 Feminist Score: 1
+Movie title: Ride Along 2 Actors: 50 Feminist Score: 1
+Movie title: Sully Actors: 61 Feminist Score: 1
+Movie title: Teenage Mutant Ninja Turtles: Out of the Shadows Actors: 23 Feminist Score: 1
+Movie title: The Accountant Actors: 58 Feminist Score: 1
+Movie title: The Conjuring 2: The Enfield Poltergeist Actors: 32 Feminist Score: 1
+Movie title: The Girl on the Train Actors: 20 Feminist Score: 1
+Movie title: The Jungle Book Actors: 11 Feminist Score: 1
+Movie title: The Legend of Tarzan Actors: 58 Feminist Score: 1
+Movie title: The Magnificent Seven Actors: 48 Feminist Score: 1
+Movie title: X-Men: Apocalypse Actors: 90 Feminist Score: 1
+Movie title: Zootopia Actors: 32 Feminist Score: 1
+Movie title: Deadpool Actors: 34 Feminist Score: 0
+Movie title: Don't Breathe Actors: 10 Feminist Score: 0
+Movie title: Lights Out Actors: 14 Feminist Score: 0
+Movie title: Rogue One: A Star Wars Story Actors: 33 Feminist Score: 0
+Movie title: The Boss Actors: 37 Feminist Score: 0
+Movie title: The Secret Life of Pets Actors: 31 Feminist Score: 0
+Movie title: Trolls Actors: 32 Feminist Score: 0

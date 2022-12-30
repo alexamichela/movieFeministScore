@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=PriorityQueue
+comment0.text=\n\ Represents\ a\ heap\ representation\ of\ a\ queue.\n\n\ @author\ Kelly\ Cao,\ Alexa\ Halim,\ Marleigh\ Ausbrooks\n\ @version\ December\ 13,\ 2022\n
+comment1.params=
+comment1.target=PriorityQueue()
+comment1.text=\n\ Creates\ a\ new,\ empty\ priority\ queue.\n
+comment2.params=element
+comment2.target=void\ enqueue(java.lang.Comparable)
+comment2.text=\n\ Adds\ the\ specified\ element\ to\ the\ rear\ of\ the\ queue.\n
+comment3.params=
+comment3.target=java.lang.Comparable\ dequeue()
+comment3.text=\n\ Removes\ and\ returns\ the\ element\ at\ the\ front\ of\ the\ queue.\n\ \n\ @returns\ the\ element\ at\ the\ front\ of\ the\ queue\n
+comment4.params=
+comment4.target=java.lang.Comparable\ first()
+comment4.text=\n\ Returns\ a\ reference\ to\ the\ element\ at\ the\ front\ of\ the\ queue\n\ without\ removing\ it.\n\ \n\ @returns\ the\ element\ at\ the\ front\ of\ the\ queue\n
+comment5.params=
+comment5.target=boolean\ isEmpty()
+comment5.text=\n\ Returns\ true\ if\ the\ queue\ contains\ no\ elements\ and\ false\ otherwise.\n\ \n\ @returns\ the\ boolean\ whether\ or\ not\ the\ queue\ is\ empty\n
+comment6.params=
+comment6.target=int\ size()
+comment6.text=\n\ Returns\ the\ number\ of\ elements\ in\ the\ queue.\n\ \n\ @returns\ the\ number\ of\ elements\ in\ the\ queue\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ Returns\ a\ string\ representation\ of\ the\ queue.\n\ \n\ @returns\ the\ string\ representation\ of\ the\ queue\n
+numComments=8
