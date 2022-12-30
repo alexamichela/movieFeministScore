@@ -14,7 +14,7 @@ least one conversation not about a man? Other tests such as the Villareal, Ko, a
 the Bechdel test by including the movie crew, gender, and race into the matrix. Although these tests reveal
 anti-feminist aspects of a film, they fail to provide an intersectional evaluation of women in film that
 encompass, race, sexuality, and disability.
-\nTo create a more all-encompassing feminist score – including race, sexuality, and gender, we
+<br>To create a more all-encompassing feminist score – including race, sexuality, and gender, we
 incorporated three tests in our self-defined feminist score. The three tests we used are: Villareal (index 4),
 Ko (index 6), Rees Davies (index 12). The Villareal test examines female protagonists, evaluating
 whether or not they are portrayed as one of three common stereotypes (sexualized, expressionless, or
@@ -34,11 +34,11 @@ out the string representation of a movie that hasn’t had its test results popu
 user to set test results. In the Movie Collection class, when movies are added to the collection from the
 input file, their respective test results are also populated. A movie’s feminist score is determined in the
 following manner:
-\n● If the movie passes none of the tests, it gets a score of 0.
-\n● If the movie passes only one of the tests, it gets a score of 1.
-\n● If the movie passes any two of the tests, it gets a score of 2.
-\n● If the movie passes all three tests, it gets a score of 3.
-\nOur program allows users to easily sort a movie collection by feminist scores through an
+<br>● If the movie passes none of the tests, it gets a score of 0.
+<br>● If the movie passes only one of the tests, it gets a score of 1.
+<br>● If the movie passes any two of the tests, it gets a score of 2.
+<br>● If the movie passes all three tests, it gets a score of 3.
+<br>Our program allows users to easily sort a movie collection by feminist scores through an
 implementation of a PriorityQueue data structure that is based on a LinkedMaxHeap, which implements
 the MaxHeap interface. A MaxHeap is an extension of a BinaryTree, in which each node’s element
 priority is greater than or equal to both of its children’s. Thus, the highest priority element is at the root.
@@ -49,7 +49,7 @@ desire to facilitate understanding of our feminist score and the subsequent rank
 Additionally, the ways in which we would have liked to further evaluate a movie’s diversity and
 representation, such as the inclusion of BIPOC and LGBTQ+ individuals in all departments, were not
 easily available to us through the other tests and data.
-\nThus, when users want to sort a movie collection by feminist score, they enqueue each movie to a
+<br>Thus, when users want to sort a movie collection by feminist score, they enqueue each movie to a
 priority queue, in which elements are prioritized by their feminist score, and dequeue all of the movies to
 show the ranked list of movies from most feminist to least. If more movies were added to our data, our
 solution to sorting a movie collection by feminist score would not have to change. The addition of more
@@ -61,57 +61,57 @@ crew, so that smaller movies get a lower priority.
 ## Conclusions
 ### Findings:
 Ranking movie collection from most feminist to least:
-\nMovie title: Bad Moms Actors: 16 Feminist Score: 2
-Movie title: Batman v Superman: Dawn of Justice Actors: 122 Feminist Score: 2
-Movie title: Fantastic Beasts and Where to Find Them Actors: 61 Feminist Score: 2
-Movie title: Finding Dory Actors: 28 Feminist Score: 2
-Movie title: Ghostbusters Actors: 54 Feminist Score: 2
-Movie title: Hacksaw Ridge Actors: 90 Feminist Score: 2
-Movie title: Hidden Figures Actors: 96 Feminist Score: 2
-Movie title: Ice Age: Collision Course Actors: 18 Feminist Score: 2
-Movie title: Independence Day: Resurgence Actors: 28 Feminist Score: 2
-Movie title: Kung Fu Panda 3 Actors: 36 Feminist Score: 2
-Movie title: Now You See Me 2 Actors: 48 Feminist Score: 2
-Movie title: Pete's Dragon Actors: 41 Feminist Score: 2
-Movie title: Sausage Party Actors: 33 Feminist Score: 2
-Movie title: Sing Actors: 55 Feminist Score: 2
-Movie title: Star Trek Beyond Actors: 23 Feminist Score: 2
-Movie title: Storks Actors: 25 Feminist Score: 2
-Movie title: Suicide Squad Actors: 54 Feminist Score: 2
-Movie title: The Angry Birds Movie Actors: 47 Feminist Score: 2
-Movie title: The Divergent Series: Allegiant Actors: 91 Feminist Score: 2
-Movie title: The Purge: Election Year Actors: 41 Feminist Score: 2
-Movie title: 10 Cloverfield Lane Actors: 10 Feminist Score: 1
-Movie title: Alice Through the Looking Glass Actors: 23 Feminist Score: 1
-Movie title: Arrival Actors: 60 Feminist Score: 1
-Movie title: Boo! A Madea Halloween Actors: 42 Feminist Score: 1
-Movie title: Captain America: Civil War Actors: 26 Feminist Score: 1
-Movie title: Central Intelligence Actors: 25 Feminist Score: 1
-Movie title: Doctor Strange Actors: 29 Feminist Score: 1
-Movie title: Jason Bourne Actors: 43 Feminist Score: 1
-Movie title: La La Land Actors: 49 Feminist Score: 1
-Movie title: Miss Peregrine's Home for Peculiar Children Actors: 53 Feminist Score: 1
-Movie title: Moana Actors: 7 Feminist Score: 1
-Movie title: Passengers Actors: 27 Feminist Score: 1
-Movie title: Ride Along 2 Actors: 50 Feminist Score: 1
-Movie title: Sully Actors: 61 Feminist Score: 1
-Movie title: Teenage Mutant Ninja Turtles: Out of the Shadows Actors: 23 Feminist Score: 1
-Movie title: The Accountant Actors: 58 Feminist Score: 1
-Movie title: The Conjuring 2: The Enfield Poltergeist Actors: 32 Feminist Score: 1
-Movie title: The Girl on the Train Actors: 20 Feminist Score: 1
-Movie title: The Jungle Book Actors: 11 Feminist Score: 1
-Movie title: The Legend of Tarzan Actors: 58 Feminist Score: 1
-Movie title: The Magnificent Seven Actors: 48 Feminist Score: 1
-Movie title: X-Men: Apocalypse Actors: 90 Feminist Score: 1
-Movie title: Zootopia Actors: 32 Feminist Score: 1
-Movie title: Deadpool Actors: 34 Feminist Score: 0
-Movie title: Don't Breathe Actors: 10 Feminist Score: 0
-Movie title: Lights Out Actors: 14 Feminist Score: 0
-Movie title: Rogue One: A Star Wars Story Actors: 33 Feminist Score: 0
-Movie title: The Boss Actors: 37 Feminist Score: 0
-Movie title: The Secret Life of Pets Actors: 31 Feminist Score: 0
-Movie title: Trolls Actors: 32 Feminist Score: 0
-Upon evaluating the scores of the movies,it was unsurprising that no movies in this dataset
+<br>Movie title: Bad Moms Actors: 16 Feminist Score: 2
+<br>Movie title: Batman v Superman: Dawn of Justice Actors: 122 Feminist Score: 2
+<br>Movie title: Fantastic Beasts and Where to Find Them Actors: 61 Feminist Score: 2
+<br>Movie title: Finding Dory Actors: 28 Feminist Score: 2
+<br>Movie title: Ghostbusters Actors: 54 Feminist Score: 2
+<br>Movie title: Hacksaw Ridge Actors: 90 Feminist Score: 2
+<br>Movie title: Hidden Figures Actors: 96 Feminist Score: 2
+<br>Movie title: Ice Age: Collision Course Actors: 18 Feminist Score: 2
+<br>Movie title: Independence Day: Resurgence Actors: 28 Feminist Score: 2
+<br>Movie title: Kung Fu Panda 3 Actors: 36 Feminist Score: 2
+<br>Movie title: Now You See Me 2 Actors: 48 Feminist Score: 2
+<br>Movie title: Pete's Dragon Actors: 41 Feminist Score: 2
+<br>Movie title: Sausage Party Actors: 33 Feminist Score: 2
+<br>Movie title: Sing Actors: 55 Feminist Score: 2
+<br>Movie title: Star Trek Beyond Actors: 23 Feminist Score: 2
+<br>Movie title: Storks Actors: 25 Feminist Score: 2
+<br>Movie title: Suicide Squad Actors: 54 Feminist Score: 2
+<br>Movie title: The Angry Birds Movie Actors: 47 Feminist Score: 2
+<br>Movie title: The Divergent Series: Allegiant Actors: 91 Feminist Score: 2
+<br>Movie title: The Purge: Election Year Actors: 41 Feminist Score: 2
+<br>Movie title: 10 Cloverfield Lane Actors: 10 Feminist Score: 1
+<br>Movie title: Alice Through the Looking Glass Actors: 23 Feminist Score: 1
+<br>Movie title: Arrival Actors: 60 Feminist Score: 1
+<br>Movie title: Boo! A Madea Halloween Actors: 42 Feminist Score: 1
+<br>Movie title: Captain America: Civil War Actors: 26 Feminist Score: 1
+<br>Movie title: Central Intelligence Actors: 25 Feminist Score: 1
+<br>Movie title: Doctor Strange Actors: 29 Feminist Score: 1
+<br>Movie title: Jason Bourne Actors: 43 Feminist Score: 1
+<br>Movie title: La La Land Actors: 49 Feminist Score: 1
+<br>Movie title: Miss Peregrine's Home for Peculiar Children Actors: 53 Feminist Score: 1
+<br>Movie title: Moana Actors: 7 Feminist Score: 1
+<br>Movie title: Passengers Actors: 27 Feminist Score: 1
+<br>Movie title: Ride Along 2 Actors: 50 Feminist Score: 1
+<br>Movie title: Sully Actors: 61 Feminist Score: 1
+<br>Movie title: Teenage Mutant Ninja Turtles: Out of the Shadows Actors: 23 Feminist Score: 1
+<br>Movie title: The Accountant Actors: 58 Feminist Score: 1
+<br>Movie title: The Conjuring 2: The Enfield Poltergeist Actors: 32 Feminist Score: 1
+<br>Movie title: The Girl on the Train Actors: 20 Feminist Score: 1
+<br>Movie title: The Jungle Book Actors: 11 Feminist Score: 1
+<br>Movie title: The Legend of Tarzan Actors: 58 Feminist Score: 1
+<br>Movie title: The Magnificent Seven Actors: 48 Feminist Score: 1
+<br>Movie title: X-Men: Apocalypse Actors: 90 Feminist Score: 1
+<br>Movie title: Zootopia Actors: 32 Feminist Score: 1
+<br>Movie title: Deadpool Actors: 34 Feminist Score: 0
+<br>Movie title: Don't Breathe Actors: 10 Feminist Score: 0
+<br>Movie title: Lights Out Actors: 14 Feminist Score: 0
+<br>Movie title: Rogue One: A Star Wars Story Actors: 33 Feminist Score: 0
+<br>Movie title: The Boss Actors: 37 Feminist Score: 0
+<br>Movie title: The Secret Life of Pets Actors: 31 Feminist Score: 0
+<br>Movie title: Trolls Actors: 32 Feminist Score: 0
+<br>Upon evaluating the scores of the movies,it was unsurprising that no movies in this dataset
 received a perfect score on our test. Due to the pervasive misogynistic nature of film, our expectations for
 movies that pass our feminist score were low. We picked our three specific tests to define our feminist
 score due to their ability to better evaluate whether or not a movie is feminist and diverse; from our
@@ -124,7 +124,7 @@ during their developmental stages influence their mannerisms, affect their menta
 beliefs. Having such pervasive media that enforces harmful stereotypes, racial biases, and lack of
 representation of LGBTQ+ individuals encourages, and often leads to the internalization of said
 stereotypes.
-Additionally, we focused in on a couple movies that had thought provoking feminist scores: Trolls
+<br>Additionally, we focused in on a couple movies that had thought provoking feminist scores: Trolls
 (Feminist Score: 0), Sausage Party (Feminist Score: 1), and Moana (Feminist Score: 3). The Trolls movie
 is one marketed at children, but especially young girls. The protagonist is a spunky troll and heir to the
 troll equivalent of a throne. We would have assumed a movie focused on a female protagonist would at
@@ -137,7 +137,7 @@ of women behind the scenes. Unfortunately, Moana doesn’t pass Reese Davies. Th
 incredibly surprising to us was Sausage Party that had a score of 2. It failed the Villarreal Test, but passed
 the other two. We did not expect an adult comedy film to receive such a high feminist score because of its
 silly subject matter.
-Although the combination of tests that we used to define our feminist score provides a more
+<br>Although the combination of tests that we used to define our feminist score provides a more
 intersectional way to evaluate movies, very few of these tests take into account LGBTQ+ and disability
 visibility in films. Given the lack of tests that examine the way queer and disabled characters are
 portrayed in movies, we would add a variation of the Vito-Russo test
